@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A virtual assistant powered by modern web technologies.">
+    <title>Virtual Assistant - Baymax</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icon Library (Unicons) -->
+    <link href="https://cdn.jsdelivr.net/npm/@iconscout/unicons/css/line.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" aria-live="polite">
+        <img src="logo.png" alt="Baymax Logo" id="logo">
+        <h1 id="heading">I'm <span id="name">Baymax</span>, your <span id="va">Virtual Assistant.</span></h1>
+        <button id="btn" aria-label="Click to talk to Baymax">
+            <img src="mic.svg" alt="Microphone Icon" id="micIcon">
+            <p id="text">Click here to talk to me!</p>
+        </button>
+        <img src="voice.gif" alt="Listening Animation" id="voice">
+        <div id="transcript"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Connect with us:</p>
+            <div class="home__social">
+                <a href="https://www.instagram.com" target="_blank" class="home__social-icon">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://github.com" target="_blank" class="home__social-icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="home__social-icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="home__social-icon">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Created by Sandun Harshana</p>
+            <p>&copy; 2024 Baymax AI Assistant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
